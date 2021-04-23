@@ -31,7 +31,7 @@ h2 {
   display: flex;
   align-items: center;
   background: #000;
-  padding: 10px;
+  padding: 0;
 
   &__btn {
     display: none;
@@ -475,7 +475,7 @@ h2 {
   .nav {
     position: relative;
     z-index: 1;
-
+    padding: 10px;
     &__item,
     &__link {
       width: 100%;
